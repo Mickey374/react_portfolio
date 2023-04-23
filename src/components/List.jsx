@@ -1,4 +1,4 @@
-
+import "./List.css";
 
 const List = ({ items }) => {
     return (

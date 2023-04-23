@@ -1,0 +1,15 @@
+div > ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+div > ul > li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+div > ul > li > span {
+  font-weight: 600;
+}

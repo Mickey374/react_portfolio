@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Profile from "./pages/Profile";
+import Projects from "./pages/Projects";
 import logo from "./assets/logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -12,6 +13,7 @@ function App() {
         {/* <Profile userName="Mickey374" /> */}
         <Routes>
           <Route path="/" element={<Profile userName="Mickey374" />} />
+          <Route path="/projects" element={<Projects userName="Mickey374" />} />
         </Routes>
       </BrowserRouter>
     </div>
