@@ -1,0 +1,21 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  text-align: center;
+  color: #000000;
+}
+
+.not-found img {
+  width: 50%;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.not-found p {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
